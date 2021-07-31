@@ -1,0 +1,177 @@
+body{
+    text-align: center;
+}
+
+h1{
+    padding-top:5%;
+    line-height:1.5rem;
+}
+h2{
+    font-size: medium;
+}
+
+/* navigation bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+ }
+  
+.nav-item {
+    color: black;
+    padding: 0 18px;
+}
+  
+.nav-link {
+    font-size: 1.2rem;
+}
+  
+
+/* name section */
+.name{
+    font-size:2rem;
+    padding: 3rem  4rem 1rem;
+}
+
+#title{
+    background-image:url("waterBg9.jpeg") ;
+    background-size: cover;
+    height:75vh;
+    position: static;
+}
+
+
+.title-image {
+    width: 50%;
+    border-radius:100%;
+    padding-right: 1rem;
+    padding-bottom: 10px;
+} 
+
+
+/* about section */
+#about{
+    background-color: #F3F2C9;
+    padding: 2rem 10rem 3rem 10rem;
+}
+
+.aboutTitle{
+    padding-bottom: 0.5rem;
+}
+
+.aboutMePic{
+    border: 1px solid #53B8BB ;
+    border-radius: 40%;
+    padding: 5px;
+    width: 300px;
+    height: auto;
+}
+.aboutMePic:hover{
+    opacity: 0.5;
+}
+
+.aboutPara{
+ text-align: left;
+ line-height: 1.5rem;
+}
+
+
+
+#skill{
+    background-color:#53B8BB;
+    padding-top: 5%;
+    line-height: 2.5;
+}
+
+.sectionHeading{
+  padding-bottom: 2rem;
+}
+
+.icon{
+    margin-bottom: 30px;
+}
+
+#Education{
+    background-color: #F3F2C9;
+    padding: 3rem 2rem ; 
+}
+
+
+.brd {
+    border-radius:15px;
+    box-shadow: 2px 2px 2px 2px black;
+    padding: 20px;
+    height: 100%;
+  }
+  
+.brd:hover {
+    transform: translate(-5px,-5px);
+    box-shadow: 8px 8px 10px 10px black;
+  }
+
+
+#contactSection{
+    padding-top: 2rem;
+    background-color: #53B8BB;
+  }
+.contact{
+    padding-left: 5rem;
+    padding-right: 2rem;
+}
+
+
+
+
+/* media query useed to make page responsive  */
+@media(max-width:950px){
+
+   #content{
+       text-align: left;
+   }
+
+   .nav-link{
+       font-size: 1px;
+   }
+
+  .name{
+        color:#53B8BB;
+        font-size:2rem;
+        padding: 3rem  4rem  0.5rem 3rem;
+  }
+
+   .subHeading{
+      color: #53B8BB;
+   }
+  #title{
+      text-align: center;
+      height:30% ;
+      background-image:url("waterBg9.jpeg") ;
+  }
+
+  #about{
+    text-align: center;
+    padding:10px
+  }
+
+  .aboutMePic{
+     height:50vh;
+     border-radius:8%;
+     border: 0px;
+     padding: 5px;
+     width: 300px;   
+  }
+
+  .aboutPara{
+    text-align: center;
+    line-height: 1.5rem;
+   }
+
+   .contact{
+    padding-left: 3rem;
+    padding-right: 2rem;
+   }
+
+   .contactMeHeading{
+       font-size: 3px;
+   }
+  
+} 
