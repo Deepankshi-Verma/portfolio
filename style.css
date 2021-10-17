@@ -89,12 +89,18 @@ h2{
 .icon{
     margin-bottom: 30px;
 }
-
+ 
+/* education section  */
 #Education{
     background-color: #F3F2C9;
     padding: 3rem 2rem ; 
 }
 
+.eduPic{
+    height:150px;
+    width:300px;
+    border-radius: 15px;
+}
 
 .brd {
     border-radius:15px;
@@ -122,7 +128,7 @@ h2{
 
 
 /* media query useed to make page responsive  */
-@media(max-width:950px){
+@media(max-width:1050px){
 
    #content{
        text-align: left;
@@ -133,13 +139,13 @@ h2{
    }
 
   .name{
-        color:#53B8BB;
+        color:purple;
         font-size:2rem;
         padding: 3rem  4rem  0.5rem 3rem;
   }
 
    .subHeading{
-      color: #53B8BB;
+      color: purple ;
    }
   #title{
       text-align: center;
