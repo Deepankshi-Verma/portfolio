@@ -128,7 +128,7 @@ h2{
 
 
 /* media query useed to make page responsive  */
-@media(max-width:1050px){
+@media(max-width:1096px){
 
    #content{
        text-align: left;
@@ -170,7 +170,11 @@ h2{
     text-align: center;
     line-height: 1.5rem;
    }
-
+   
+   .eduPic{
+       height:40vh;
+       width:40vh;
+   }
    .contact{
     padding-left: 3rem;
     padding-right: 2rem;
